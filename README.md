@@ -8,3 +8,5 @@ game-chooser-better is a bit longer, randomly pushes multiple entries from the p
 dinner-picker is a gag code I made for a friend, whose girlfriend could never pick what she wanted to eat;
 
 working on DOM integration sometime this month;
+
+huge thanks to ChrisWFlannery at Twitter/X (AKA Code Tour on YouTube) for the tutorial on Mathematical Mode!
