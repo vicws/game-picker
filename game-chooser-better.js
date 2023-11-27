@@ -1,8 +1,12 @@
+// swap the names inside the 'games' array [] for whatever you wanna randomize; you can put however many things you want inside, just remember to put them in quotes and separate with commas (const games = ["like", "this"]);
+// at the bottom, choose how many times you wanna "roll" the dice (5); 
+// the logs are commented, but you can remove the // below in case you want to, I don't know, check and count for yourself?
+
 const games = ["Baldur's Gate 3", "Valorant", "League of Legends"];
-function choose(array) {
+function choose(n, array) {
 
     let chosenGames = [];
-    for (let i = 0; i < array.length * 10; i++) {
+    for (let i = 0; i < array.length * n; i++) {
         chosenGames.push(Math.floor(Math.random() * array.length))
     }
     // console.log(chosenGames)
@@ -32,4 +36,4 @@ function choose(array) {
     return games[highestValueKey];
 }
 
-console.log(choose(games));
+console.log(choose(5, games));
